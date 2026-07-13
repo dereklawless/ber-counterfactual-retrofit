@@ -1,7 +1,7 @@
 # Generating and Evaluating Counterfactual Retrofit Explanations for Irish Homes 
 Code accompanying the research project _Generating and Evaluating Counterfactual Retrofit Explanations for Irish Homes (TU Dublin, 2026)_. 
 
-Predicts a dwelling's Building Energy Rating (BER) with XGBoost, explains predictions with SHAP, generates retrofit counterfactuals with DiCE, audits them against Keane et al.'s five deficits, and compares SHAP and DiCE against the ALTAI framework.
+Predicts a dwelling's Building Energy Rating (BER) with XGBoost, explains predictions with SHAP, generates retrofit counterfactuals with DiCE, and scores them against three of Keane et al.'s five deficits: plausibility, sparsity, and diversity.
 
 ## Contents
 - `ber_counterfactuals.ipynb` — Jupyter notebook containing the full pipeline (run from top to bottom)
